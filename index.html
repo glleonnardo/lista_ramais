@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ramais</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<h2 class="titulo">Hospital Heliopolis</h2>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<h2>Lista de Ramais</h2>
+				<label for="filtrar-tabela">Busca:</label>
+				<input type="text" name="filtro" id="filtrar-tabela" placeholder="Departamento ou Colaborador">
+				<table>
+					<thead>
+						<tr>
+							<th>Departamento</th>
+							<th>Colaborador / Área</th>
+							<th>Ramal</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-colaborador">
+
+
+
+						<tr class="colaborador">
+							<td class="info-dpt">TI</td>
+							<td class="info-nome">Edcarlos</td>
+							<td class="info-ramal"><b>571</b></td>
+						</tr>
+							<tr class="colaborador">
+							<td class="info-dpt">TI</td>
+							<td class="info-nome">Leonardo/Gabriel</td>
+							<td class="info-ramal"><b>597</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Almoxarifado</td>
+							<td class="info-nome">Almoxarifado</td>
+							<td class="info-ramal"><b>524</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Compras</td>
+							<td class="info-nome">Compras</td>
+							<td class="info-ramal"><b>533/602</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Dir.Tecnica</td>
+							<td class="info-nome">Dir.Tecnica</td>
+							<td class="info-ramal"><b>301</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">GTAH</td>
+							<td class="info-nome">GTAH</td>
+							<td class="info-ramal"><b>302</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Div.Médica</td>
+							<td class="info-nome">Div.Médica</td>
+							<td class="info-ramal"><b>536</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem</td>
+							<td class="info-nome">Enfermagem</td>
+							<td class="info-ramal"><b>537/538</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Farmacia</td>
+							<td class="info-nome">Farmacia</td>
+							<td class="info-ramal"><b>511/513</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Finanças</td>
+							<td class="info-nome">Finanças</td>
+							<td class="info-ramal"><b>533</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Limpadora</td>
+							<td class="info-nome">Limpadora</td>
+							<td class="info-ramal"><b>526</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Manut.Predial</td>
+							<td class="info-nome">Manut.Predial</td>
+							<td class="info-ramal"><b>518/519</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Manut.Equip</td>
+							<td class="info-nome">Manut.Equip</td>
+							<td class="info-ramal"><b>571</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Marcação de consulta</td>
+							<td class="info-nome">Marcação de consulta</td>
+							<td class="info-ramal"><b>550</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Marcar Exame</td>
+							<td class="info-nome">Marcar Exame</td>
+							<td class="info-ramal"><b>655</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Patrimônio</td>
+							<td class="info-nome">Patrimônio</td>
+							<td class="info-ramal"><b>698</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Manutenção</td>
+							<td class="info-nome">Ingrid</td>
+							<td class="info-ramal"><b>596</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Refeitorio</td>
+							<td class="info-nome">Refeitorio</td>
+							<td class="info-ramal"><b>515</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">SAME</td>
+							<td class="info-nome">SAME</td>
+							<td class="info-ramal"><b>531</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Portaria</td>
+							<td class="info-nome">Acesso Pronto Socorro</td>
+							<td class="info-ramal"><b>560</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Admissão e Alta</td>
+							<td class="info-nome">Registro Geral-Internação</td>
+							<td class="info-ramal"><b>481/482/486</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Angiografia</td>
+							<td class="info-nome">Angiografia</td>
+							<td class="info-ramal"><b>499</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">CAM</td>
+							<td class="info-nome">Central Material ME</td>
+							<td class="info-ramal"><b>492</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Centro Cirúrgico</td>
+							<td class="info-nome">Centro Cirúrgico</td>
+							<td class="info-ramal"><b>479/480</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Centro Cirúrgico(Anestesia)</td>
+							<td class="info-nome">Centro Cirúrgico(Anestesia)</td>
+							<td class="info-ramal"><b>478</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Centro Cirúrgico(recepção)</td>
+							<td class="info-nome">Centro Cirúrgico(recepção)</td>
+							<td class="info-ramal"><b>514</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Centro Cirúrgico(RPA)</td>
+							<td class="info-nome">Centro Cirúrgico(RPA)</td>
+							<td class="info-ramal"><b>491</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Coordenação Pronto-Socorro</td>
+							<td class="info-nome">Coordenação Pronto-Socorro</td>
+							<td class="info-ramal"><b>445</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem (Posto)</td>
+							<td class="info-nome">Enfermagem (Posto)</td>
+							<td class="info-ramal"><b>484</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório</td>
+							<td class="info-nome">Laboratório</td>
+							<td class="info-ramal"><b>498/497</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Serviço Social</td>
+							<td class="info-nome">Serviço Social</td>
+							<td class="info-ramal"><b>483</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Serv.Enfermagem Diretoria</td>
+							<td class="info-nome">Serv.Enfermagem Diretoria</td>
+							<td class="info-ramal"><b>493</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Serv.Enfermagem Diretoria</td>
+							<td class="info-nome">Serv.Enfermagem Diretoria</td>
+							<td class="info-ramal"><b>493</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Unidade de Emergência(U.E)</td>
+							<td class="info-nome">Unidade de Emergência(U.E)</td>
+							<td class="info-ramal"><b>493</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Unidade de Terapia Intensiva(U.T.I)</td>
+							<td class="info-nome">Unidade de Terapia Intensiva(U.T.I)</td>
+							<td class="info-ramal"><b>485</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Consultorio Odonto(CEP)</td>
+							<td class="info-nome">Consultorio Odonto(CEP)</td>
+							<td class="info-ramal"><b>463</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Exame Colonoscopia</td>
+							<td class="info-nome">Exame Colonoscopia</td>
+							<td class="info-ramal"><b>458/460/461</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Secretaria Fisioterapia</td>
+							<td class="info-nome">Secretaria Fisioterapia</td>
+							<td class="info-ramal"><b>444</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Banco de Sangue</td>
+							<td class="info-nome">Banco de Sangue</td>
+							<td class="info-ramal"><b>466</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">SCIH</td>
+							<td class="info-nome">SCIH</td>
+							<td class="info-ramal"><b>455</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Assistente Social</td>
+							<td class="info-nome">Assistente Social</td>
+							<td class="info-ramal"><b>425/435</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Uro/Cir Torax</td>
+							<td class="info-nome">Cir.Cab.Pescoço</td>
+							<td class="info-ramal"><b>429/430</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Neuro Cirurgia</td>
+							<td class="info-nome">Enfermagem Neuro Cirurgia</td>
+							<td class="info-ramal"><b>423</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Serviço Social 6º</td>
+							<td class="info-nome">Serviço Social 6º</td>
+							<td class="info-ramal"><b>425</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Assistente Social 7º</td>
+							<td class="info-nome">Assistente Social 7º</td>
+							<td class="info-ramal"><b>419</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Infecto MI</td>
+							<td class="info-nome">Enfermagem Infecto MI</td>
+							<td class="info-ramal"><b>417</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Vascular/Cir.Geral 8º</td>
+							<td class="info-nome">Enfermagem Vascular/Cir.Geral 8º</td>
+							<td class="info-ramal"><b>576</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Gastrocirurgia/GO 8º</td>
+							<td class="info-nome">Enfermagem Gastrocirurgia/GO 8º</td>
+							<td class="info-ramal"><b>414/413</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Clinica Médica 9º</td>
+							<td class="info-nome">Par</td>
+							<td class="info-ramal"><b>402</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem Clinica Médica 9º</td>
+							<td class="info-nome">Impar</td>
+							<td class="info-ramal"><b>403</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Administração - HH</td>
+							<td class="info-nome">Administração - HH</td>
+							<td class="info-ramal"><b>552</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Coordenação de Ambulatório</td>
+							<td class="info-nome">Coordenação de Ambulatório</td>
+							<td class="info-ramal"><b>585/584</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Enfermagem(Centro)</td>
+							<td class="info-nome">Enfermagem(Centro)</td>
+							<td class="info-ramal"><b>589</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Farmácia</td>
+							<td class="info-nome">Farmácia</td>
+							<td class="info-ramal"><b>442</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Ginecologia</td>
+							<td class="info-nome">Ginecologia</td>
+							<td class="info-ramal"><b>593</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório - Recepção</td>
+							<td class="info-nome">Laboratório - Recepção</td>
+							<td class="info-ramal"><b>474</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório - Secretaria</td>
+							<td class="info-nome">Laboratório - Secretaria</td>
+							<td class="info-ramal"><b>497</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório de Anátomo Clinica(Secret)</td>
+							<td class="info-nome">Laboratório de Anátomo Clinica(Secret)</td>
+							<td class="info-ramal"><b>490</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório - Coleta - P.S 1º</td>
+							<td class="info-nome">Laboratório - Coleta - P.S 1º</td>
+							<td class="info-ramal"><b>496</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório - Microbiologia</td>
+							<td class="info-nome">Laboratório - Microbiologia</td>
+							<td class="info-ramal"><b>489</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Laboratório AFIP</td>
+							<td class="info-nome">Laboratório AFIP</td>
+							<td class="info-ramal"><b>598</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">M.I(CEP) Sala dos Médicos</td>
+							<td class="info-nome">Térreo Externo</td>
+							<td class="info-ramal"><b>556</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">M.I - Recepção</td>
+							<td class="info-nome">Térreo Externo</td>
+							<td class="info-ramal"><b>557</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">M.I - Enfermagem</td>
+							<td class="info-nome">Térreo Externo</td>
+							<td class="info-ramal"><b>553</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Marcação consulta</td>
+							<td class="info-nome">Recepção</td>
+							<td class="info-ramal"><b>558</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Oncologia</td>
+							<td class="info-nome">Secretaria</td>
+							<td class="info-ramal"><b>579</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Oncologia</td>
+							<td class="info-nome">Autorização p/ Med Quimioterapia</td>
+							<td class="info-ramal"><b>588</b></td>
+						</tr>
+
+						
+						<tr class="colaborador">
+							<td class="info-dpt">Oncologia - Marcar Consulta</td>
+							<td class="info-nome">Recepção</td>
+							<td class="info-ramal"><b>558</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Registro Hospitalar do Câncer</td>
+							<td class="info-nome">>Registro Hospitalar do Câncer</td>
+							<td class="info-ramal"><b>410</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Quimioterapia</td>
+							<td class="info-nome">>Quimioterapia</td>
+							<td class="info-ramal"><b>578/580/586/587</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Radiologia - Recepção</td>
+							<td class="info-nome">>Marcar Exame</td>
+							<td class="info-ramal"><b>476</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Radiologia - Secretaria</td>
+							<td class="info-nome">>Radiologia - Secretaria</td>
+							<td class="info-ramal"><b>617/477</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">Sala de Exames</td>
+							<td class="info-nome">>Ressonância Magnetica/Tomografia</td>
+							<td class="info-ramal"><b>591</b></td>
+						</tr>
+
+						<tr class="colaborador">
+							<td class="info-dpt">DADT</td>
+							<td class="info-nome">>DADT</td>
+							<td class="info-ramal"><b>441</b></td>
+						</tr>
+
+
+
+						
+
+
+
+					
+
+		
+
+
+					</tbody>
+				</table>
+			</section>
+		</main>
+		<script src="js/filtra-departamento.js" ></script>
+	</body>
+</html>
